@@ -1,0 +1,37 @@
+# Environnement virtuel Python
+venv/
+env/
+__pycache__/
+*.pyc
+
+# Modèles et poids volumineux
+*.pt
+*.traineddata
+runs_entrainement/
+.paddlex/
+
+# Datasets (trop volumineux pour Git)
+dataset_zones*/
+data/
+export_labelstudio*/
+
+# Fichiers de debug générés
+debug_*.jpg
+debug_*.png
+
+# Node.js / Next.js
+steros-frontend/node_modules/
+steros-frontend/.next/
+steros-frontend/out/
+
+# Fichiers temporaires de test
+uploads_temporaires/
+test_comptage.py
+
+# Fichiers système
+.DS_Store
+Thumbs.db
+
+# Variables d'environnement / secrets
+.env
+.env.local
