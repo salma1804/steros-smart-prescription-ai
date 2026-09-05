@@ -1,0 +1,20 @@
+# Détection de zones
+ultralytics
+
+# Traitement d'image
+opencv-python
+numpy
+
+# OCR
+pytesseract
+easyocr
+paddleocr
+paddlepaddle
+
+# NLP / correspondance sémantique
+rapidfuzz
+
+# API backend
+fastapi
+uvicorn
+python-multipart

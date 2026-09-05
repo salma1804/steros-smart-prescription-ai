@@ -1,0 +1,558 @@
+[
+  {
+    "x": 51,
+    "y": 222,
+    "libelle": "NFS+PLQ"
+  },
+  {
+    "x": 51,
+    "y": 243,
+    "libelle": "groupr Sanguin Rhésus"
+  },
+  {
+    "x": 53,
+    "y": 268,
+    "libelle": "phénotypage SANGUIN"
+  },
+  {
+    "x": 54,
+    "y": 288,
+    "libelle": "TP"
+  },
+ 
+  {
+    "x": 53,
+    "y": 309,
+    "libelle": "Fibrinémie"
+  },
+  {
+    "x": 54,
+    "y": 330,
+    "libelle": "D-Diméres"
+  },
+  {
+    "x": 52,
+    "y": 351,
+    "libelle": "Coombs Direct"
+  },
+  {
+    "x": 52,
+    "y": 371,
+    "libelle": "EP Hemoglobine"
+  },
+  {
+    "x": 240,
+    "y": 222,
+    "libelle": "VS"
+  },
+  {
+    "x": 237,
+    "y": 285,
+    "libelle": "TCA"
+  },
+  {
+    "x": 240,
+    "y": 349,
+    "libelle": "RAI"
+  },
+  {
+    "x": 53,
+    "y": 425,
+    "libelle": "Glycémie"
+  },
+  {
+    "x": 52,
+    "y": 448,
+    "libelle": "Hemoglobine glyquée"
+  },
+  {
+    "x": 53,
+    "y": 469,
+    "libelle": "CRP"
+  },
+  {
+    "x": 52,
+    "y": 490,
+    "libelle": "Urée"
+  },
+  {
+    "x": 54,
+    "y": 509,
+    "libelle": "Créatinine"
+  },
+  {
+    "x": 53,
+    "y": 527,
+    "libelle": "Ionogramme Sanguin"
+  },
+  {
+    "x": 55,
+    "y": 549,
+    "libelle": "Cholesterol"
+  },
+  {
+    "x": 154,
+    "y": 548,
+    "libelle": "LDL"
+  },
+  {
+    "x": 239,
+    "y": 549,
+    "libelle": "HDL"
+  },
+  {
+    "x": 243,
+    "y": 529,
+    "libelle": "Potasium"
+  },
+  {
+    "x": 241,
+    "y": 462,
+    "libelle": "Procalctonine"
+  },
+  {
+    "x": 53,
+    "y": 569,
+    "libelle": "Triglycélicélide"
+  },
+  {
+    "x": 53,
+    "y": 590,
+    "libelle": "Acide urique"
+  },
+  {
+    "x": 57,
+    "y": 611,
+    "libelle": "Protides"
+  },
+  {
+    "x": 151,
+    "y": 607,
+    "libelle": "Albumine"
+  },
+  {
+    "x": 252,
+    "y": 608,
+    "libelle": "EPP"
+  },
+  {
+    "x": 58,
+    "y": 632,
+    "libelle": "Transmission ALAT/ASAT"
+  },
+  {
+    "x": 58,
+    "y": 651,
+    "libelle": "PAL"
+  },
+  {
+    "x": 54,
+    "y": 671,
+    "libelle": "Gaamma GT"
+  },
+  {
+    "x": 55,
+    "y": 692,
+    "libelle": "Amylase"
+  },
+  {
+    "x": 56,
+    "y": 713,
+    "libelle": "CPK"
+  },
+  {
+    "x": 55,
+    "y": 733,
+    "libelle": "Troponine T HS"
+  },
+  {
+    "x": 243,
+    "y": 690,
+    "libelle": "Lipase"
+  },
+  {
+    "x": 243,
+    "y": 711,
+    "libelle": "LDH"
+  },
+  {
+    "x": 56,
+    "y": 756,
+    "libelle": "Pro BNP"
+  },
+  {
+    "x": 56,
+    "y": 776,
+    "libelle": "Calcium"
+  },
+  {
+    "x": 54,
+    "y": 796,
+    "libelle": "Mangnésium"
+  },
+  {
+    "x": 56,
+    "y": 815,
+    "libelle": "Vitamine D"
+  },
+  {
+    "x": 61,
+    "y": 835,
+    "libelle": "Ferritinémine"
+  },
+  {
+    "x": 243,
+    "y": 774,
+    "libelle": "Phosphore"
+  },
+  {
+    "x": 243,
+    "y": 835,
+    "libelle": "Fer Serique"
+  },
+  {
+    "x": 447,
+    "y": 223,
+    "libelle": "Crétainine"
+  },
+  {
+    "x": 639,
+    "y": 223,
+    "libelle": "Urée"
+  },
+  {
+    "x": 451,
+    "y": 247,
+    "libelle": "Chimie de urine"
+  },
+  {
+    "x": 451,
+    "y": 265,
+    "libelle": "ProteinUrie"
+  },
+  {
+    "x": 639,
+    "y": 259,
+    "libelle": "micro albumiurie"
+  },
+  {
+    "x": 452,
+    "y": 286,
+    "libelle": "Calcium"
+  },
+  {
+    "x": 450,
+    "y": 306,
+    "libelle": "Phosphore"
+  },
+  {
+    "x": 452,
+    "y": 327,
+    "libelle": "Magnésium"
+  },
+  {
+    "x": 453,
+    "y": 347,
+    "libelle": "Ionogramme urinaire"
+  },
+  {
+    "x": 449,
+    "y": 406,
+    "libelle": "Sérologie HIV"
+  },
+  {
+    "x": 452,
+    "y": 429,
+    "libelle": "Ag HBS"
+  },
+  {
+    "x": 544,
+    "y": 424,
+    "libelle": "Ac HBE"
+  },
+  {
+    "x": 638,
+    "y": 425,
+    "libelle": "Ag Hbe"
+  },
+  {
+    "x": 452,
+    "y": 447,
+    "libelle": "Ac HbCT"
+  },
+  {
+    "x": 544,
+    "y": 446,
+    "libelle": "Ac HbC M"
+  },
+  {
+    "x": 639,
+    "y": 446,
+    "libelle": "Ac Hbs"
+  },
+  {
+    "x": 450,
+    "y": 468,
+    "libelle": "Ac anti HCV"
+  },
+  {
+    "x": 451,
+    "y": 488,
+    "libelle": "TPHA - VDRL"
+  },
+  {
+    "x": 452,
+    "y": 508,
+    "libelle": "Toxoplasmose"
+  },
+  {
+    "x": 452,
+    "y": 531,
+    "libelle": "Rubéole"
+  },
+  {
+    "x": 449,
+    "y": 549,
+    "libelle": "CMV"
+  },
+  {
+    "x": 638,
+    "y": 551,
+    "libelle": "EBV"
+  },
+  {
+    "x": 453,
+    "y": 631,
+    "libelle": "ECBU"
+  },
+  {
+    "x": 451,
+    "y": 649,
+    "libelle": "LCR"
+  },
+  {
+    "x": 452,
+    "y": 671,
+    "libelle": "ECBC"
+  },
+  {
+    "x": 453,
+    "y": 692,
+    "libelle": "Quantiféron"
+  },
+  {
+    "x": 452,
+    "y": 715,
+    "libelle": "PTP"
+  },
+  {
+    "x": 453,
+    "y": 734,
+    "libelle": "Coproculture"
+  },
+  {
+    "x": 451,
+    "y": 755,
+    "libelle": "PV"
+  },
+  {
+    "x": 641,
+    "y": 628,
+    "libelle": "Hémoculture"
+  },
+  {
+    "x": 640,
+    "y": 647,
+    "libelle": "Ponction"
+  },
+  {
+    "x": 641,
+    "y": 667,
+    "libelle": "Aspiration bronchique"
+  },
+  {
+    "x": 640,
+    "y": 688,
+    "libelle": "Recherche de BK"
+  },
+  {
+    "x": 640,
+    "y": 712,
+    "libelle": "PUS"
+  },
+  {
+    "x": 640,
+    "y": 733,
+    "libelle": "EPS"
+  },
+  {
+    "x": 452,
+    "y": 855,
+    "libelle": "B HCG quantitative"
+  },
+  {
+    "x": 639,
+    "y": 855,
+    "libelle": "B HCG dosage"
+  },
+  {
+    "x": 454,
+    "y": 876,
+    "libelle": "FSH"
+  },
+  {
+    "x": 521,
+    "y": 876,
+    "libelle": "LH"
+  },
+  {
+    "x": 574,
+    "y": 875,
+    "libelle": "PRL"
+  },
+  {
+    "x": 643,
+    "y": 875,
+    "libelle": "Oestradiol"
+  },
+  {
+    "x": 59,
+    "y": 895,
+    "libelle": "AFP"
+  },
+  {
+    "x": 159,
+    "y": 890,
+    "libelle": "ACE"
+  },
+  {
+    "x": 245,
+    "y": 892,
+    "libelle": "ca 19-9"
+  },
+  {
+    "x": 56,
+    "y": 914,
+    "libelle": "CA125"
+  },
+  {
+    "x": 244,
+    "y": 914,
+    "libelle": "CA 15-3"
+  },
+  {
+    "x": 57,
+    "y": 936,
+    "libelle": "PSA TOTAL"
+  },
+  {
+    "x": 159,
+    "y": 931,
+    "libelle": "NSE"
+  },
+  {
+    "x": 242,
+    "y": 931,
+    "libelle": "PSA LIBRE"
+  },
+  {
+    "x": 456,
+    "y": 899,
+    "libelle": "testostérone"
+  },
+  {
+    "x": 453,
+    "y": 919,
+    "libelle": "TSH"
+  },
+  {
+    "x": 574,
+    "y": 921,
+    "libelle": "FT4"
+  },
+  {
+    "x": 642,
+    "y": 916,
+    "libelle": "FT3"
+  },
+  {
+    "x": 453,
+    "y": 938,
+    "libelle": "ATG"
+  },
+  {
+    "x": 642,
+    "y": 940,
+    "libelle": "ATPO"
+  },
+  {
+    "x": 453,
+    "y": 958,
+    "libelle": "PTH"
+  },
+  {
+    "x": 57,
+    "y": 993,
+    "libelle": "PCR-BK"
+  },
+  {
+    "x": 59,
+    "y": 1013,
+    "libelle": "PCR-BRUCELLOSE"
+  },
+  {
+    "x": 57,
+    "y": 1034,
+    "libelle": "PCR-CMV"
+  },
+  {
+    "x": 57,
+    "y": 1054,
+    "libelle": "Multiplexe PCR Respiratoire"
+  },
+  {
+    "x": 59,
+    "y": 1074,
+    "libelle": "Multiplexe PCR Pneumoniae"
+  },
+  {
+    "x": 262,
+    "y": 992,
+    "libelle": "Charge virale HCV"
+  },
+  {
+    "x": 264,
+    "y": 1010,
+    "libelle": "Charge virale HBV"
+  },
+  {
+    "x": 262,
+    "y": 1030,
+    "libelle": "Charge virale HIV"
+  },
+  {
+    "x": 264,
+    "y": 1053,
+    "libelle": "Multiplexe PCR LCR"
+  },
+  {
+    "x": 264,
+    "y": 1074,
+    "libelle": "Multiplexe PCR Gastrique"
+  },
+  {
+    "x": 57,
+    "y": 1096,
+    "libelle": "Génotypage HCV"
+  },
+  {
+    "x": 59,
+    "y": 1119,
+    "libelle": "PCR-PNEUMOCYSTIS"
+  },
+  {
+    "x": 265,
+    "y": 1116,
+    "libelle": "PCR-ASPERGILLUS"
+  }
+]

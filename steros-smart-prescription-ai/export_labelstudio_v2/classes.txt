@@ -1,0 +1,6 @@
+zone_analyses
+zone_cachet
+zone_commentaires
+zone_date
+zone_patient
+zone_prescripteur

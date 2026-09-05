@@ -1,0 +1,33 @@
+{
+  "categories": [
+    {
+      "id": 0,
+      "name": "zone_analyses"
+    },
+    {
+      "id": 1,
+      "name": "zone_cachet"
+    },
+    {
+      "id": 2,
+      "name": "zone_commentaires"
+    },
+    {
+      "id": 3,
+      "name": "zone_date"
+    },
+    {
+      "id": 4,
+      "name": "zone_patient"
+    },
+    {
+      "id": 5,
+      "name": "zone_prescripteur"
+    }
+  ],
+  "info": {
+    "year": 2026,
+    "version": "1.0",
+    "contributor": "Label Studio"
+  }
+}

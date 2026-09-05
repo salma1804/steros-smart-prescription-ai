@@ -1,0 +1,42 @@
+awll haja aml folder esmo data fiha les ordonnaces lkol w bad amlt fichier fih les ordonnace a annoter
+w badika amltlhm annotation fl label studio beh ki kamlna amlna export lel data annote , tw mch ndakhlouha lel entrainer bl yoo 26
+lzemn natiwh shnouma les train w chnouma l validation heka alh sna3na preparer dataset yolo msh yam hal taksima
+w yamlelna folder mta dataset zone heka lfolder howa li st3mneh fl entrainer
+
+
+
+
+-------------------------
+Un premier échantillon de 307 ordonnances, représentatif des différents formats rencontrés
+ (libre manuscrit, formulaires structurés LAM, Medexa, El Manar), a été annoté manuellement sous Label Studio 
+ selon 5 zones d'intérêt : patient, prescripteur, cachet, analyses et date. Ce jeu de données a été réparti selon
+  un ratio 85/15 (260 images d'entraînement, 47 de validation), puis utilisé pour entraîner un modèle YOLO26 par 
+  transfer learning sur GPU (NVIDIA RTX 2050), en 100 epochs. Le modèle obtenu atteint un mAP50 global 
+  de 0,562 (mAP50-95 de 0,29), avec de meilleures performances sur la zone_analyses (mAP50 = 0,781) 
+  et la zone_patient (0,605), et des résultats plus modestes sur zone_cachet, zone_date et 
+  zone_prescripteur (0,44 à 0,50). Une classe zone_commentaires initialement prévue a été fusionnée 
+  avec zone_analyses après un premier essai infructueux, faute d'exemples suffisants
+(seulement 2 occurrences), confirmant la nécessité d'un second cycle d'annotation pour consolider les 
+zones les plus faibles.
+-----------------------------------
+ps:Rôle de remapper_classes.py
+Ce script corrige un décalage de numérotation des classes, causé par la façon dont Label Studio exporte les données.
+---------------------------
+f heki  ordonnace mta cocher lapproche geormetrique mta lawj al carre li fih x w akra li htgeh makhdmtch comme il faut
+khatr les carre wl ktiba yeser les9in lbathhm donx amlna calibration.outil.py li rmina fiha les cordone mta l carre w libelle fiha 
+les anaylyses w bad amlna tamplate matching.py mch nara est ce que  case coche ou non et si oui on extrait lanalyse 
+
+
+--------------------
+stratégie compléte 
+1. Lancer le pipeline générique (YOLO26 + OCR) comme d'habitude sur l'image
+2. Analyser le texte extrait pour repérer si c'est le format LAM "Examens de Laboratoire"
+3. Si oui → tenter l'alignement + template matching
+   → Si l'alignement réussit bien (assez d'inliers) → utiliser ces résultats précis
+   → Si l'alignement échoue → revenir aux résultats génériques (déjà obtenus à l'étape 1)
+4. Si le format n'est pas reconnu → garder simplement les résultats génériques
+
+
+prb 2 les les ordonnace lojhrin puisqie ana condition de confidentialite w manjmouch nst3mlo api key lezmna nsobo vlm :
+Un VLM local peut recevoir une image + une question en langage naturel ("Quel est le nom du patient sur ce document ?") et répondre directement, 
+sans passer par YOLO26 — utile en secours quand YOLO26 ne détecte rien du tout pour une zone.

@@ -1,0 +1,4 @@
+train: dataset_zones/images/train
+val: dataset_zones/images/val
+nc: 5
+names: ["zone_analyses", "zone_cachet", "zone_date", "zone_patient", "zone_prescripteur"]
